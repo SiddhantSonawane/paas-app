@@ -47,7 +47,7 @@
                 </div>
                 <form>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="exm" name="exm" style="margin-top: 10px;">
+                        <input type="text" placeholder="Enter Veges" class="form-control" id="exm" name="exm" style="margin-top: 10px;">
                         <button id="btnc" class="btn btn-lg btn-success" style="margin-top: 10px;">Search</button>
                     </div>
                 </form>
@@ -108,7 +108,7 @@
                         </tr>
                     </tbody>
                 </table>
-                <div class="thumbnails">
+                <div class="thumbnails">    
                     <div class="card m-2" style="width: 18rem;">
                         <div class="card-header">
                             <h5>Carrots</h5>
@@ -182,7 +182,7 @@
             e.preventDefault();
             var val = document.getElementById('exm').value
             var str = 'https://google.com/search?q=' + val
-            window.location.href=str
+            window.location.href = str
         })
     </script>
 </body>
